@@ -1,0 +1,47 @@
+
+$colorPrimary: #f3ca0a;
+$colorSecunday: #101e60 ;
+$colorDark: #1c1f30;
+$colorWhite: #ffffff;
+
+
+
+
+.bg-soft-primary{
+    background-color: $colorDark !important;
+}
+.text-dark{
+    color: #101e60;
+}
+body[data-layout="horizontal"][data-topbar="light"] .topnav .navbar-nav .nav-link{
+    color:$colorSecunday !important;
+}
+body[data-layout="horizontal"][data-topbar="light"] .topnav .navbar-nav > .dropdown.active > a {
+    color:$colorSecunday !important;
+}
+body[data-topbar="dark"] #page-topbar{
+    background-color: $colorSecunday;
+}
+.FondoLogin{
+    // background-color: blue;
+  //  background-image: url("../images/Login.jpg") ;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(59, 59, 59, 0.5)),url("../images/Login.jpg");
+    background-repeat: no-repeat;
+    background-position: center 75%;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputLarge{
+    width: 800px !important;
+}
+.radius50{
+    border-radius: 50% !important;
+}
